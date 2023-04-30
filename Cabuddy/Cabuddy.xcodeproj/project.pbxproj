@@ -10,6 +10,11 @@
 		38FC7CEE29FE2F2600F60E5E /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7CEC29FE2F2600F60E5E /* AuthenticationVC.swift */; };
 		38FC7CEF29FE2F2600F60E5E /* AuthenticationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FC7CED29FE2F2600F60E5E /* AuthenticationVC.xib */; };
 		38FC7CF129FE2FCD00F60E5E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7CF029FE2FCD00F60E5E /* RootView.swift */; };
+		38FC7CF329FE393600F60E5E /* AuthenticationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7CF229FE393600F60E5E /* AuthenticationVM.swift */; };
+		38FC7CF529FE3C6E00F60E5E /* CalbuddyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7CF429FE3C6E00F60E5E /* CalbuddyService.swift */; };
+		38FC7CF729FE3C7800F60E5E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7CF629FE3C7800F60E5E /* NetworkManager.swift */; };
+		38FC7CF929FE3D9600F60E5E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7CF829FE3D9600F60E5E /* APIService.swift */; };
+		38FC7CFE29FE3ED800F60E5E /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7CFD29FE3ED800F60E5E /* CalendarService.swift */; };
 		4DB244D0D46D399E04D7636F /* Pods_CabuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29293A994E117A4E529BF701 /* Pods_CabuddyTests.framework */; };
 		4FCA28A6797D86F0B496EC0F /* Pods_Cabuddy_CabuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8B14A36EB009BB28F8B723 /* Pods_Cabuddy_CabuddyUITests.framework */; };
 		6EA1C19BE52105AC617E496B /* Pods_Cabuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBBF59CF1852A23F72822C0 /* Pods_Cabuddy.framework */; };
@@ -50,6 +55,11 @@
 		38FC7CEC29FE2F2600F60E5E /* AuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
 		38FC7CED29FE2F2600F60E5E /* AuthenticationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationVC.xib; sourceTree = "<group>"; };
 		38FC7CF029FE2FCD00F60E5E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		38FC7CF229FE393600F60E5E /* AuthenticationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVM.swift; sourceTree = "<group>"; };
+		38FC7CF429FE3C6E00F60E5E /* CalbuddyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalbuddyService.swift; sourceTree = "<group>"; };
+		38FC7CF629FE3C7800F60E5E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		38FC7CF829FE3D9600F60E5E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		38FC7CFD29FE3ED800F60E5E /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
 		3E8B14A36EB009BB28F8B723 /* Pods_Cabuddy_CabuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabuddy_CabuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBBF59CF1852A23F72822C0 /* Pods_Cabuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A820F929C69C6C000A3A2E /* Cabuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cabuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,10 +112,19 @@
 		38D1CAC729F8B497001CFB15 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				38FC7CF229FE393600F60E5E /* AuthenticationVM.swift */,
 				38FC7CEC29FE2F2600F60E5E /* AuthenticationVC.swift */,
 				38FC7CED29FE2F2600F60E5E /* AuthenticationVC.xib */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		38FC7CFA29FE3E9700F60E5E /* Caldendar */ = {
+			isa = PBXGroup;
+			children = (
+				38FC7CFD29FE3ED800F60E5E /* CalendarService.swift */,
+			);
+			path = Caldendar;
 			sourceTree = "<group>";
 		};
 		63FAE63C276DFA66F09BD5D8 /* Frameworks */ = {
@@ -145,6 +164,7 @@
 			children = (
 				38D1CAC629F8B306001CFB15 /* Info.plist */,
 				B5A8212C29C69DB9000A3A2E /* Features */,
+				38FC7CFA29FE3E9700F60E5E /* Caldendar */,
 				B5A8212929C69D7D000A3A2E /* Network */,
 				B5A8212629C69D39000A3A2E /* Models */,
 				B5A820FC29C69C6C000A3A2E /* CabuddyApp.swift */,
@@ -190,6 +210,9 @@
 		B5A8212929C69D7D000A3A2E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				38FC7CF829FE3D9600F60E5E /* APIService.swift */,
+				38FC7CF429FE3C6E00F60E5E /* CalbuddyService.swift */,
+				38FC7CF629FE3C7800F60E5E /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -474,10 +497,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FC7CF529FE3C6E00F60E5E /* CalbuddyService.swift in Sources */,
 				B5A820FF29C69C6C000A3A2E /* EventList.swift in Sources */,
+				38FC7CF729FE3C7800F60E5E /* NetworkManager.swift in Sources */,
 				B5A8212B29C69DA9000A3A2E /* EventVM.swift in Sources */,
+				38FC7CF929FE3D9600F60E5E /* APIService.swift in Sources */,
 				38FC7CEE29FE2F2600F60E5E /* AuthenticationVC.swift in Sources */,
 				B5A8212829C69D4D000A3A2E /* Event.swift in Sources */,
+				38FC7CFE29FE3ED800F60E5E /* CalendarService.swift in Sources */,
+				38FC7CF329FE393600F60E5E /* AuthenticationVM.swift in Sources */,
 				38FC7CF129FE2FCD00F60E5E /* RootView.swift in Sources */,
 				B5A8213029C69F2C000A3A2E /* EventDetail.swift in Sources */,
 				B5A820FD29C69C6C000A3A2E /* CabuddyApp.swift in Sources */,
