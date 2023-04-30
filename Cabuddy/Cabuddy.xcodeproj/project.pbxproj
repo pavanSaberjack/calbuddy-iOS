@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38FC7CEE29FE2F2600F60E5E /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7CEC29FE2F2600F60E5E /* AuthenticationVC.swift */; };
+		38FC7CEF29FE2F2600F60E5E /* AuthenticationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FC7CED29FE2F2600F60E5E /* AuthenticationVC.xib */; };
+		38FC7CF129FE2FCD00F60E5E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7CF029FE2FCD00F60E5E /* RootView.swift */; };
+		4DB244D0D46D399E04D7636F /* Pods_CabuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29293A994E117A4E529BF701 /* Pods_CabuddyTests.framework */; };
+		4FCA28A6797D86F0B496EC0F /* Pods_Cabuddy_CabuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8B14A36EB009BB28F8B723 /* Pods_Cabuddy_CabuddyUITests.framework */; };
+		6EA1C19BE52105AC617E496B /* Pods_Cabuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBBF59CF1852A23F72822C0 /* Pods_Cabuddy.framework */; };
 		B5A820FD29C69C6C000A3A2E /* CabuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A820FC29C69C6C000A3A2E /* CabuddyApp.swift */; };
 		B5A820FF29C69C6C000A3A2E /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A820FE29C69C6C000A3A2E /* EventList.swift */; };
 		B5A8210129C69C71000A3A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A8210029C69C71000A3A2E /* Assets.xcassets */; };
@@ -37,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02AF2F471E8AFD7059C4EE7A /* Pods-CabuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabuddyTests.debug.xcconfig"; path = "Target Support Files/Pods-CabuddyTests/Pods-CabuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		08DB32714D15F6716E0DD5C5 /* Pods-Cabuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabuddy.debug.xcconfig"; path = "Target Support Files/Pods-Cabuddy/Pods-Cabuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		29293A994E117A4E529BF701 /* Pods_CabuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D1CAC629F8B306001CFB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		38FC7CEC29FE2F2600F60E5E /* AuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
+		38FC7CED29FE2F2600F60E5E /* AuthenticationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationVC.xib; sourceTree = "<group>"; };
+		38FC7CF029FE2FCD00F60E5E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		3E8B14A36EB009BB28F8B723 /* Pods_Cabuddy_CabuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabuddy_CabuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBBF59CF1852A23F72822C0 /* Pods_Cabuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A820F929C69C6C000A3A2E /* Cabuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cabuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A820FC29C69C6C000A3A2E /* CabuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabuddyApp.swift; sourceTree = "<group>"; };
 		B5A820FE29C69C6C000A3A2E /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
@@ -50,6 +65,10 @@
 		B5A8212729C69D4D000A3A2E /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		B5A8212A29C69DA9000A3A2E /* EventVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVM.swift; sourceTree = "<group>"; };
 		B5A8212F29C69F2C000A3A2E /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		D05BBF7671252F6B83FC1794 /* Pods-CabuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabuddyTests.release.xcconfig"; path = "Target Support Files/Pods-CabuddyTests/Pods-CabuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D54C3BCD4AB90B1911F9AE50 /* Pods-Cabuddy-CabuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabuddy-CabuddyUITests.release.xcconfig"; path = "Target Support Files/Pods-Cabuddy-CabuddyUITests/Pods-Cabuddy-CabuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB60342E2A06EBD04DDB1B3C /* Pods-Cabuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabuddy.release.xcconfig"; path = "Target Support Files/Pods-Cabuddy/Pods-Cabuddy.release.xcconfig"; sourceTree = "<group>"; };
+		E994D8C1A15E506451560652 /* Pods-Cabuddy-CabuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabuddy-CabuddyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cabuddy-CabuddyUITests/Pods-Cabuddy-CabuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA1C19BE52105AC617E496B /* Pods_Cabuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB244D0D46D399E04D7636F /* Pods_CabuddyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +92,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCA28A6797D86F0B496EC0F /* Pods_Cabuddy_CabuddyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38D1CAC729F8B497001CFB15 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				38FC7CEC29FE2F2600F60E5E /* AuthenticationVC.swift */,
+				38FC7CED29FE2F2600F60E5E /* AuthenticationVC.xib */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		63FAE63C276DFA66F09BD5D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBF59CF1852A23F72822C0 /* Pods_Cabuddy.framework */,
+				3E8B14A36EB009BB28F8B723 /* Pods_Cabuddy_CabuddyUITests.framework */,
+				29293A994E117A4E529BF701 /* Pods_CabuddyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5A820F029C69C6C000A3A2E = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +125,8 @@
 				B5A8210C29C69C71000A3A2E /* CabuddyTests */,
 				B5A8211629C69C71000A3A2E /* CabuddyUITests */,
 				B5A820FA29C69C6C000A3A2E /* Products */,
+				FCF9EB1D842CB30C9191B28C /* Pods */,
+				63FAE63C276DFA66F09BD5D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +143,7 @@
 		B5A820FB29C69C6C000A3A2E /* Cabuddy */ = {
 			isa = PBXGroup;
 			children = (
+				38D1CAC629F8B306001CFB15 /* Info.plist */,
 				B5A8212C29C69DB9000A3A2E /* Features */,
 				B5A8212929C69D7D000A3A2E /* Network */,
 				B5A8212629C69D39000A3A2E /* Models */,
@@ -153,6 +197,8 @@
 		B5A8212C29C69DB9000A3A2E /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				38FC7CF029FE2FCD00F60E5E /* RootView.swift */,
+				38D1CAC729F8B497001CFB15 /* Onboarding */,
 				B5A8212E29C69F13000A3A2E /* EventDetail */,
 				B5A8212D29C69DF0000A3A2E /* EventList */,
 			);
@@ -176,6 +222,19 @@
 			path = EventDetail;
 			sourceTree = "<group>";
 		};
+		FCF9EB1D842CB30C9191B28C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08DB32714D15F6716E0DD5C5 /* Pods-Cabuddy.debug.xcconfig */,
+				DB60342E2A06EBD04DDB1B3C /* Pods-Cabuddy.release.xcconfig */,
+				E994D8C1A15E506451560652 /* Pods-Cabuddy-CabuddyUITests.debug.xcconfig */,
+				D54C3BCD4AB90B1911F9AE50 /* Pods-Cabuddy-CabuddyUITests.release.xcconfig */,
+				02AF2F471E8AFD7059C4EE7A /* Pods-CabuddyTests.debug.xcconfig */,
+				D05BBF7671252F6B83FC1794 /* Pods-CabuddyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5A8211D29C69C71000A3A2E /* Build configuration list for PBXNativeTarget "Cabuddy" */;
 			buildPhases = (
+				54567EB6C9E337478957C2AD /* [CP] Check Pods Manifest.lock */,
 				B5A820F529C69C6C000A3A2E /* Sources */,
 				B5A820F629C69C6C000A3A2E /* Frameworks */,
 				B5A820F729C69C6C000A3A2E /* Resources */,
+				C1ADE82D428A64048639DD97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5A8212029C69C71000A3A2E /* Build configuration list for PBXNativeTarget "CabuddyTests" */;
 			buildPhases = (
+				884B2FA4BB56CECE3F2377DD /* [CP] Check Pods Manifest.lock */,
 				B5A8210529C69C71000A3A2E /* Sources */,
 				B5A8210629C69C71000A3A2E /* Frameworks */,
 				B5A8210729C69C71000A3A2E /* Resources */,
@@ -218,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5A8212329C69C71000A3A2E /* Build configuration list for PBXNativeTarget "CabuddyUITests" */;
 			buildPhases = (
+				AB4C65B93079A0CF3DB40D45 /* [CP] Check Pods Manifest.lock */,
 				B5A8210F29C69C71000A3A2E /* Sources */,
 				B5A8211029C69C71000A3A2E /* Frameworks */,
 				B5A8211129C69C71000A3A2E /* Resources */,
+				746079EF3063A7A5524F9717 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5A8210429C69C71000A3A2E /* Preview Assets.xcassets in Resources */,
+				38FC7CEF29FE2F2600F60E5E /* AuthenticationVC.xib in Resources */,
 				B5A8210129C69C71000A3A2E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +366,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54567EB6C9E337478957C2AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cabuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		746079EF3063A7A5524F9717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cabuddy-CabuddyUITests/Pods-Cabuddy-CabuddyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cabuddy-CabuddyUITests/Pods-Cabuddy-CabuddyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cabuddy-CabuddyUITests/Pods-Cabuddy-CabuddyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		884B2FA4BB56CECE3F2377DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabuddyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB4C65B93079A0CF3DB40D45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cabuddy-CabuddyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1ADE82D428A64048639DD97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cabuddy/Pods-Cabuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cabuddy/Pods-Cabuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cabuddy/Pods-Cabuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5A820F529C69C6C000A3A2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -308,7 +476,9 @@
 			files = (
 				B5A820FF29C69C6C000A3A2E /* EventList.swift in Sources */,
 				B5A8212B29C69DA9000A3A2E /* EventVM.swift in Sources */,
+				38FC7CEE29FE2F2600F60E5E /* AuthenticationVC.swift in Sources */,
 				B5A8212829C69D4D000A3A2E /* Event.swift in Sources */,
+				38FC7CF129FE2FCD00F60E5E /* RootView.swift in Sources */,
 				B5A8213029C69F2C000A3A2E /* EventDetail.swift in Sources */,
 				B5A820FD29C69C6C000A3A2E /* CabuddyApp.swift in Sources */,
 			);
@@ -463,6 +633,7 @@
 		};
 		B5A8211E29C69C71000A3A2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DB32714D15F6716E0DD5C5 /* Pods-Cabuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +642,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cabuddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cabuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +663,7 @@
 		};
 		B5A8211F29C69C71000A3A2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB60342E2A06EBD04DDB1B3C /* Pods-Cabuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,6 +672,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cabuddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cabuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -519,6 +693,7 @@
 		};
 		B5A8212129C69C71000A3A2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02AF2F471E8AFD7059C4EE7A /* Pods-CabuddyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +713,7 @@
 		};
 		B5A8212229C69C71000A3A2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05BBF7671252F6B83FC1794 /* Pods-CabuddyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -557,6 +733,7 @@
 		};
 		B5A8212429C69C71000A3A2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E994D8C1A15E506451560652 /* Pods-Cabuddy-CabuddyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,6 +751,7 @@
 		};
 		B5A8212529C69C71000A3A2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54C3BCD4AB90B1911F9AE50 /* Pods-Cabuddy-CabuddyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
