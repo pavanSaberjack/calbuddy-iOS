@@ -16,7 +16,9 @@ class AuthenticationVC: UIViewController {
     }
     
     @IBAction func signIn(sender: Any) {
-        GIDSignIn.sharedInstance.signIn(withPresenting: self) {[weak self] signInResult, error in
+        
+        let additionalScopes = ["https://www.googleapis.com/auth/calendar"]
+        GIDSignIn.sharedInstance.signIn(withPresenting: self, hint: nil, additionalScopes: additionalScopes) {[weak self] signInResult, error in
             guard error == nil else {
                 
                 // Show the error message in Alert View
@@ -33,17 +35,28 @@ class AuthenticationVC: UIViewController {
                 guard error == nil else { return }
                 guard let user = user else { return }
                 
+                
                 let idToken = user.idToken
+                let refreshToken = user.refreshToken
+                let accessToken = user.accessToken
                 // Send ID token to backend (example below).
-                self?.updateUserInfo(idToken: idToken!.tokenString, userEmail: user.profile!.email)
+                self?.updateUserInfo(idToken: idToken!.tokenString,
+                               userEmail: user.profile!.email,
+                               refreshToken: refreshToken.tokenString,
+                               accessToken: accessToken.tokenString)
             }
         }
     }
     
-    func updateUserInfo(idToken: String, userEmail: String) {
+    func updateUserInfo(idToken: String,
+                        userEmail: String,
+                        refreshToken: String,
+                        accessToken: String) {
         let formData = [
                         "idToken": idToken,
-                        "emailId": userEmail
+                        "emailId": userEmail,
+                        "refreshToken": refreshToken,
+                        "accessToken": accessToken
                         ]
         
         guard let authData = try? JSONEncoder().encode(formData) else {

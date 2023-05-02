@@ -17,6 +17,7 @@ struct CabuddyApp: App {
                     GIDSignIn.sharedInstance.handle(url)
                 }
                 .onAppear {
+
                     GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
                         // Check if `user` exists; otherwise, do something with `error`
                         guard error == nil else {
@@ -25,15 +26,20 @@ struct CabuddyApp: App {
                         
                         guard let user = user else {
                             return
-                        }
+                        }                                                
                         
                         user.refreshTokensIfNeeded { user, error in
                             guard error == nil else { return }
                             guard let user = user else { return }
                             
                             let idToken = user.idToken
+                            let refreshToken = user.refreshToken
+                            let accessToken = user.accessToken
                             // Send ID token to backend (example below).
-                            updateUserInfo(idToken: idToken!.tokenString, userEmail: user.profile!.email)
+                            updateUserInfo(idToken: idToken!.tokenString,
+                                           userEmail: user.profile!.email,
+                                           refreshToken: refreshToken.tokenString,
+                                           accessToken: accessToken.tokenString)
                         }
                
                     }
@@ -41,10 +47,15 @@ struct CabuddyApp: App {
         }
     }
     
-    func updateUserInfo(idToken: String, userEmail: String) {
+    func updateUserInfo(idToken: String,
+                        userEmail: String,
+                        refreshToken: String,
+                        accessToken: String) {
         let formData = [
                         "idToken": idToken,
-                        "emailId": userEmail
+                        "emailId": userEmail,
+                        "refreshToken": refreshToken,
+                        "accessToken": accessToken
                         ]
         
         guard let authData = try? JSONEncoder().encode(formData) else {
